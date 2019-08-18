@@ -1,0 +1,16 @@
+﻿<Window x:Class="ValCacheProxyHost.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ValCacheProxyHost"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="1098.411">
+    <Grid>
+        <ListBox x:Name="CachedFilesList" HorizontalAlignment="Left" Margin="27,47,0,45" Width="242"/>
+        <Label Content="Cached Files&#xD;&#xA;" HorizontalAlignment="Left" Margin="27,10,0,0" VerticalAlignment="Top" Width="88" Height="32"/>
+        <Button x:Name="ClearCacheBtn" Content="Clear Cache" HorizontalAlignment="Left" Margin="288,47,0,0" VerticalAlignment="Top" Width="91" Click="ClearCacheBtn_Click"/>
+        <TextBox x:Name="LogView" Margin="411,48,40,44" TextWrapping="Wrap" ScrollViewer.CanContentScroll="True" VerticalScrollBarVisibility="Auto"/>
+        <Label Content="Log View&#xD;&#xA;" HorizontalAlignment="Left" Margin="411,10,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

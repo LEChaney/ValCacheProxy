@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="49443c20-5964-4723-8fbc-d42c3875bfdd" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1081/ValCacheServer/FileServerService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="56f78413-fa98-40d1-92e3-826d43d24b13" SourceId="1" SourceUrl="http://localhost:1081/ValCacheServer/FileServerService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="102fc97e-b21c-464b-b86f-3ed5469647f4" SourceId="1" SourceUrl="http://localhost:1081/ValCacheServer/FileServerService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="fd48f8a1-f10b-4119-86da-b2a80d63b9c3" SourceId="1" SourceUrl="http://localhost:1081/ValCacheServer/FileServerService/mex" />
+    <MetadataFile FileName="Message.xsd" MetadataType="Schema" ID="65b571d9-75ec-47f2-a997-fb03cbfc4482" SourceId="1" SourceUrl="http://localhost:1081/ValCacheServer/FileServerService/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="277d62c6-fed0-44aa-8f44-b81e29af639a" SourceId="1" SourceUrl="http://localhost:1081/ValCacheServer/FileServerService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

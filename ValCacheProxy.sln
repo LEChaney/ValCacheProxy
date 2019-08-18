@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValCacheProxyService", "ValCacheProxyService\ValCacheProxyService.csproj", "{1AADAE0E-DEEF-4430-AA45-626C7F6F518F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValCacheProxyLib", "ValCacheProxyLib\ValCacheProxyLib.csproj", "{1AADAE0E-DEEF-4430-AA45-626C7F6F518F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValCacheProxyHost", "ValCacheProxyHost\ValCacheProxyHost.csproj", "{EF9EACCE-729B-466D-93FE-854994B22161}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1AADAE0E-DEEF-4430-AA45-626C7F6F518F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AADAE0E-DEEF-4430-AA45-626C7F6F518F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AADAE0E-DEEF-4430-AA45-626C7F6F518F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF9EACCE-729B-466D-93FE-854994B22161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF9EACCE-729B-466D-93FE-854994B22161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF9EACCE-729B-466D-93FE-854994B22161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF9EACCE-729B-466D-93FE-854994B22161}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
